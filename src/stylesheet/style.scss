@@ -1,0 +1,117 @@
+.container {
+  width: 80%;
+  margin: 3rem auto;
+  background-color: rgb(229, 223, 160);
+  padding: 3rem 2rem;
+  border-radius: 10px;
+  box-shadow: 4px 10px 10px rgb(152, 151, 151);
+}
+body {
+  background-color: rgb(218, 206, 94);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1 {
+  color: rgb(4, 76, 143);
+  text-align: center;
+}
+.calender {
+  width: 20%;
+  display: block;
+  margin: 1rem auto;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 2px solid gray;
+}
+option {
+  font-size: 5rem;
+}
+.list-heading {
+  text-align: center;
+}
+.flex {
+  display: flex;
+}
+
+.calender-holder {
+  width: 49%;
+  background-color: rgb(229, 223, 160);
+  border-radius: 10px;
+  box-shadow: 10px 20px 20px rgb(189, 189, 189);
+  border: 2px solid lightgrey;
+}
+.list-holder {
+  width: 49%;
+}
+.list-heading {
+  color: rgb(4, 89, 169);
+}
+.btn {
+  padding: 10px 2rem;
+  background-color: rgb(28, 158, 28);
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  color: white;
+  font-size: 1rem;
+  width: fit-content;
+  display: block;
+  margin: 1rem auto;
+}
+.date-holder {
+  padding: 2rem;
+  list-style: none;
+  display: flex;
+  gap: 1.2rem;
+  flex-wrap: wrap;
+}
+.date-events {
+  height: 40vh;
+  overflow: scroll;
+}
+.dateNum {
+  width: 10%;
+  height: 50px;
+  border: 1px solid rgb(160, 179, 160);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(60, 60, 60);
+  font-weight: 600;
+}
+.event-input {
+  width: 50%;
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 10px;
+  border: 2px solid gray;
+  display: block;
+  margin: 1rem auto;
+}
+.active {
+  background-color: rgb(36, 179, 36);
+}
+h3 {
+  text-align: center;
+  color: rgb(0, 110, 255);
+}
+.single-event {
+  display: flex;
+  gap: 2rem;
+  width: 90%;
+  flex-wrap: wrap;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid lightgrey;
+  overflow-x: scroll;
+}
+li {
+  list-style: none;
+}
+
+.no-event {
+  color: tomato;
+  font-size: 1.1rem;
+}
+.pointer {
+  cursor: pointer;
+}
