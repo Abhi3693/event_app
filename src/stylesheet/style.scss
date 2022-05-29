@@ -115,3 +115,27 @@ li {
 .pointer {
   cursor: pointer;
 }
+
+@media only screen and (max-width: 600px) {
+  .event-holder {
+    display: block;
+  }
+  .calender-holder {
+    margin-top: 2rem;
+    width: 100%;
+  }
+  .list-holder {
+    width: 100%;
+  }
+  .calender {
+    width: 70%;
+  }
+  .event-input {
+    width: 80%;
+  }
+  .dateNum {
+    font-weight: 600;
+    font-size: 0.8rem;
+    height: 30px;
+  }
+}

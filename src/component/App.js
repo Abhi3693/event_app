@@ -81,7 +81,7 @@ function App() {
         <option value='10'>November</option>
         <option value='11'>December</option>
       </select>
-      <div className='flex'>
+      <div className='flex event-holder'>
         <div className='list-holder'>
           <h2 className='list-heading'>All Events</h2>
           <button
